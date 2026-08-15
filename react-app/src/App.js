@@ -6,12 +6,29 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is my first React Application
-          Name:- Aditya Ravindra Ghayal
-          Sub:- Cloud Computing
-          Exp Aim :- Design and deploy a PaaS environment.
-        </p>
+        
+        <div className="card">
+          <span className="badge">React Application</span>
+          <h1 className="title">My First React Application</h1>
+          
+          <div className="info-grid">
+            <div className="info-item">
+              <span className="info-label">Name:</span>
+              <span className="info-value">Aditya Ravindra Ghayal</span>
+            </div>
+            
+            <div className="info-item">
+              <span className="info-label">Subject:</span>
+              <span className="info-value">Cloud Computing</span>
+            </div>
+            
+            <div className="info-item">
+              <span className="info-label">Exp Aim:</span>
+              <span className="info-value">Design and deploy a PaaS environment.</span>
+            </div>
+          </div>
+        </div>
+
         <a
           className="App-link"
           href="https://reactjs.org"
